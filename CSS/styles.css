@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display:inline-flex;
+    width:100vw;
+    height:100vh;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background:rgb(20, 19, 19);
+}
+.container-carrusel{
+    display: inline-flex;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    width:75vw;
+    height:70vh;
+    background-image:url("/Resource/Portafolio.png");
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position-x: center;
+    background-position-y: center;   
+}
+.carrusel2{
+    display: inline-flex;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    width:75vw;
+    height:70vh;
+    background-image:url("/Resource/Youtube.PNG");
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position-x: center;
+    background-position-y: center;  
+}
+.carrusel3{
+    display: inline-flex;
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    width:75vw;
+    height:70vh;
+    background-image:url("/Resource/Bars.PNG");
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position-x: center;
+    background-position-y: center;  
+}
+
+.titulo{
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    margin: 0 0 1% 11%;
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+    font-size:25px;
+    
+}
+.texto{
+    box-sizing: border-box;
+    display: inline-block;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size:20px;
+    margin:0 0 1% 11%;
+   
+}
+.container-imagenes{
+    display:inline-flex;
+    margin:0 0 0 11%;
+    width:75%;
+    height:100px;
+    flex:1 1 auto;
+}
+.image{
+    display:inline-block;
+}
+.image img{
+    box-sizing: border-box;
+    padding: 0px 5px;
+    width:90%;
+    height:95%;
+    
+}
+.barra{
+    display:inline-block;
+    width:0%;
+    height:5px;
+    background:white;
+    border-radius:2px;
+}
+a:hover{
+    opacity:.8;
+}
