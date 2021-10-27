@@ -18,7 +18,7 @@
     flex-direction: column-reverse;
     width:75vw;
     height:70vh;
-    background-image:url("/Resource/Portafolio.png");
+    background-image:url("../Resource/Portafolio.png");
     background-repeat: no-repeat;
     background-size:80%;
     background-position-x: center;
@@ -30,7 +30,7 @@
     flex-direction: column-reverse;
     width:75vw;
     height:70vh;
-    background-image:url("/Resource/Youtube.PNG");
+    background-image:url("../Resource/Youtube.PNG");
     background-repeat: no-repeat;
     background-size:80%;
     background-position-x: center;
@@ -42,7 +42,7 @@
     flex-direction: column-reverse;
     width:75vw;
     height:70vh;
-    background-image:url("/Resource/Bars.PNG");
+    background-image:url("../Resource/Bars.PNG");
     background-repeat: no-repeat;
     background-size:80%;
     background-position-x: center;
